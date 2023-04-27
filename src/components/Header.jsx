@@ -1,9 +1,12 @@
 import React from "react";
+import headerLogo from "../assets/Success Logo II.png";
 
 const Header = () => {
   return (
     <header>
-      <h1>H.</h1>
+      <div className="logo-con">
+        <img src={headerLogo} alt="" />
+      </div>
       <ul className="header-list">
         <li>About</li>
         <li>What I Do</li>
